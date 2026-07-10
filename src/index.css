@@ -1,0 +1,57 @@
+.card{
+    background: linear-gradient(135deg,#1c1c1c,#2d2d2d);
+    color: white;
+    border: none;
+    border-radius: 18px;
+    overflow: hidden;
+    transition: .4s;
+    box-shadow: 0 12px 25px rgba(0,0,0,.35);
+}
+
+
+
+.card-img-top{
+    height:220px;
+    object-fit:cover;
+}
+
+.card-title{
+    color:#FFC107;
+    font-weight:bold;
+}
+
+.price{
+    color:#00E676;
+    font-size:22px;
+    font-weight:bold;
+}
+.btn-form{
+  background:#FFC107;
+    color:#000;
+    border:none;
+    font-weight:bold;
+}
+.btn-view{
+    background:#FFC107;
+    color:#000;
+    border:none;
+    font-weight:bold;
+}
+
+.btn-view:hover{
+    background:#ff9800;
+    color:white;
+}
+img{
+  height: auto;
+}
+body{
+  background: linear-gradient(90deg, #242124 0%, 
+#003366 100%);
+}
+.container{
+  padding: 30px;
+ 
+  background: linear-gradient(90deg, #242124 0%, 
+#003366 100%);
+}

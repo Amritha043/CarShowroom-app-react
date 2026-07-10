@@ -8,7 +8,7 @@ const NavigationBar = () => {
       <div className="container-fluid">
 
       
-<Link className="navbar-brand" to="/">APPLICATION FORM</Link>
+<Link className="navbar-brand text-light" to="/">APPLICATION FORM</Link>
         <button
           className="navbar-toggler"
           type="button"
@@ -22,26 +22,26 @@ const NavigationBar = () => {
           <ul className="navbar-nav">
             <li className="nav-item">
                 
-              <Link className="nav-link" to="/">
-                ADD EMPLOYEE
+              <Link className="nav-link text-light" to="/">
+                ADD CARS
               </Link>
             </li>
 
             <li className="nav-item">
-              <Link className="nav-link" to="/delete">
-                DELETE EMPLOYEE
+              <Link className="nav-link text-light" to="/delete">
+                DELETE CARS
+              </Link>
+            </li>
+
+            <li className="nav-item ">
+              <Link className="nav-link text-light" to="/view">
+                VIEW CARS
               </Link>
             </li>
 
             <li className="nav-item">
-              <Link className="nav-link" to="/view">
-                VIEW EMPLOYEE
-              </Link>
-            </li>
-
-            <li className="nav-item">
-              <Link className="nav-link" to="/search">
-                SEARCH EMPLOYEE
+              <Link className="nav-link text-light" to="/search">
+                SEARCH CARS
               </Link>
             </li>
           </ul>
